@@ -1,4 +1,4 @@
-#Brian Encryptor
+# Brian Encryptor
 
 Este proyecto es un simple encriptador y desencriptador de texto que convierte ciertas letras en códigos predefinidos.
 
