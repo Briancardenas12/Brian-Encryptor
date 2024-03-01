@@ -1,0 +1,163 @@
+*{
+    font-family: 'Inter';
+    font-weight: 400px;
+    font-size: 30px;
+    line-height: 150%;
+}
+
+header{
+    background: url("../img/haker.jpeg");
+}
+
+.titulo{
+display: flex;
+text-align: center;
+color: white;
+font-size: 30px;
+}
+
+.tituloPagina{
+    margin-top: 30px;
+
+}
+
+.logo{
+    padding: 10px;
+    margin: 10px;
+    width: 8%;
+}
+
+body{
+    background-image: url("../img/haker.jpeg");
+}
+main{
+    background: url("../img/haker.jpeg");
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+
+.text-area{
+    border: 1px solid "black";
+    border-radius: 24px;
+    color: #0A3B71;
+    margin-top: 20px;
+    margin-left: 50px;
+    text-transform: lowercase;
+}
+
+::placeholder{
+    color: #0A3B71;
+}.text-area{
+    outline: none;
+}
+
+.texto{
+
+    text-align: center;
+    width: bold;
+}
+
+.mensaje{
+    background: white;
+    background-image: url(../img/Muñeco.png);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0A3B71;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: static;
+}
+
+.mensaje:focus{
+    outline: none;
+}
+
+.botones{
+    display: flex;  
+    margin-top: 18px;
+}
+
+.btnEncriptar{
+    background: #0A3B71;
+    border: 1px solid black;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;   
+    transition: 1s all;
+}
+
+
+.btnDesencriptar{
+    background: #D8DFE8;
+    border: 1px solid black;
+    border-radius: 24px;
+    color: #0A3B71;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+    transition: 1s all;
+
+}
+
+.btnCopiar{
+    background: #D8DFE8;
+    border: 1px solid black;
+    border-radius: 24px;
+    color: #0A3B71;
+    cursor: pointer;
+    height: 67px;
+    margin-top: 58px;
+    margin-left: 110px;
+    position: absolute;
+    width: 336px;
+    transition: 1s all;
+    
+   
+}
+
+.btnEncriptar:hover {
+    transform: scale(1.1);
+    background-color: #2863A9;
+    border-color: yellow;
+    color: black;
+
+}
+
+.btnDesencriptar:hover{
+    transform: scale(1.1);
+    background-color: #808080;
+    border-color: yellow;
+    color: black;
+
+}
+
+.btnCopiar:hover{
+    transform: scale(1.1);
+    background-color: #808080;
+    border-color: yellow;
+    color: black;
+    
+}
+
+footer{
+    text-align: center;
+    background-image: url(../img/dark-spade.png);
+    padding: 40px;
+    
+}
+
+.Copyright{
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 20px;   
+    display: inline;
+}
