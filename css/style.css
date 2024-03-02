@@ -6,7 +6,7 @@
 }
 
 header{
-    background: url("../img/haker.jpeg");
+    background: green;
 }
 
 .titulo{
@@ -29,6 +29,7 @@ font-size: 30px;
 
 body{
     background-image: url("../img/haker.jpeg");
+
 }
 main{
     background: url("../img/haker.jpeg");
@@ -160,4 +161,13 @@ footer{
     font-size: 15px;
     margin: 20px;   
     display: inline;
+}
+
+@media screen and (max-width: 768px) {
+
+    section, footer{
+        width: auto;
+    }
+    main {
+        flex-direction: row; 
 }
